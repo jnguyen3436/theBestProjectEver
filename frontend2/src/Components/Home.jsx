@@ -34,7 +34,18 @@ export default class Landing extends Component {
                 </div>
                 <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2" type="submit" onClick={this.notify} >Sign in</button>
                 <div class="text-center">
-                  <a class="small" href="#home">Forgot password?</a></div>
+                  <a class="small" href="#home">Forgot password?</a>
+                  
+                  </div>
+
+                  <div class="text-center">
+                    New to The Forge ? 
+                  <a class="medium" href="signup"> Sign Up </a>
+                   
+        
+                  
+                  </div>
+
               </form>
             </div>
           </div>
